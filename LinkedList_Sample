@@ -1,0 +1,19 @@
+import java.util.LinkedList;
+import java.util.List;
+
+public class LinkedList_Sample {
+    public static void main(String[] args) {
+
+        List<Integer> linkedSample = new LinkedList<Integer>();
+
+        linkedSample.add(1);
+        linkedSample.add(2);
+        linkedSample.add(3);
+        System.out.println(linkedSample);
+        linkedSample.remove(1);
+
+        System.out.println("After removed object from LinkedList "+ linkedSample);
+
+
+    }
+}
