@@ -20,3 +20,12 @@ public class ArrayList_1 {
         System.out.println(testArravyList);
     }
 }
+
+
+Output:
+```
+[1, 2, 3, 4, 5]
+[1, 2, 3, 5]
+
+Process finished with exit code 0
+```
